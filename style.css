@@ -29,15 +29,15 @@ a {
     text-decoration: none;
 }
 
-.link-button {
-    background-color: #E02C6D;
+.link-button{
+
     color: #fff;
+    background-color: #E02C6D;
     padding: 10px 20px;
     border-radius: 50px;
-    margin-top: 16px;
-    display: inline-block;
-
 }
+
+
 
 /* Menu Part */
 .navigation {
@@ -107,7 +107,7 @@ a {
 .carts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 5px;
 
 
 }
@@ -119,7 +119,7 @@ a {
 }
 
 .cart .cart-image {
-    width: 100%;
+    width: 80%;
 
 
 }
@@ -219,3 +219,4 @@ footer p {
     justify-content: center;
 
 }
+

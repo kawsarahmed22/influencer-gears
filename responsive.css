@@ -1,0 +1,41 @@
+/* Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .banner {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .banner-left {
+        order: 2;
+    }
+
+    .baner-right {
+        order: 1;
+    }
+
+    .carts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px){
+
+    .navigation {
+        display: none;
+}
+.logos {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.carts, .items {
+    grid-template-columns: 1fr;
+}
+  }
