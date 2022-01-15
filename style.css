@@ -81,3 +81,10 @@ a {
     width: 440px;
     height: 414px;
 }
+
+/* Company Logos */
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
