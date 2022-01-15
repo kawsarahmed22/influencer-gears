@@ -136,3 +136,39 @@ a {
 .fa-arrow-right {
     margin-left: 10px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 24px;
+    
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i {
+    margin: 0 16px;
+    color: #fff;
+    margin-top: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #22213C;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
